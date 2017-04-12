@@ -25,15 +25,9 @@ Counter-content (cover text) padding-right on line 252
 @import 'bootstrap.min.css'
 @import 'inputtext.css'
 
-// Dark theme
-//$primery_color = #fff
-//$background_color = #000
-//$secondery_color = #000
-
-//Light theme
-$primery_color = #000
-$background_color = #fff
-$secondery_color = #fff
+$primery_color = #fff
+$background_color = #000
+$secondery_color = #000
 
 $cover_layer_opacity = 0.4
 
@@ -227,12 +221,18 @@ p
   background $background_color
 
 .logo img
-  height 80px
+  height 60px
 
-p.tagline
-  font-size 30px
+p.tagline_big
+  font-size 50px
   font-weight 600
   line-height 45px
+  letter-spacing -3px
+
+p.tagline
+  font-size 25px
+  font-weight 600
+  line-height 60px
   letter-spacing -1px
 
 .side-right
@@ -1103,8 +1103,11 @@ border-widthc()
     .button-label
       padding 4px 10px 5px 5px
 
+  p.tagline_big
+    font-size 45px
+
   p.tagline, .address-detail a.tagline
-    font-size 25px
+    font-size 22px
 
   .notify-btn
     padding-top 0
@@ -1146,6 +1149,9 @@ border-widthc()
   h3
     font-size 24px
 
+  p.tagline_big
+    font-size 40px
+
   p.tagline,
   .address-detail a.tagline
     font-size 20px
@@ -1177,7 +1183,7 @@ border-widthc()
       font-size 13px
 
   .logo img
-    height 70px
+    height 40px
 
 @media only screen and (max-width: 973px)
   .copyright .social-icons
@@ -1197,9 +1203,12 @@ border-widthc()
   h3
     font-size 22px
 
+  p.tagline_big
+    font-size 30px
+
   p.tagline, .address-detail a.tagline
     font-size 18px
-    line-height 30px
+    line-height 24px
 
   .copyright p, .copyright .address-detail a
     font-size 12px
