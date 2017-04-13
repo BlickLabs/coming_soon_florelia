@@ -120,7 +120,7 @@ function pogody(){
 
 	/*Typed js*/
 	$("#typed").typed({
-		strings: [" ALTA FLORISTERÍA", " ARREGLOS PERSONALIZADOS", " DISEÑOS EXCLUSIVOS"],
+		strings: [" PRÓXIMAMENTE", " ALTA FLORISTERÍA", " ARREGLOS PERSONALIZADOS", " DISEÑOS EXCLUSIVOS"],
 		typeSpeed: 100,
 		backDelay: 900,
 		loop: true,
